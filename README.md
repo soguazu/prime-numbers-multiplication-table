@@ -17,7 +17,7 @@ Node.js
 ### Installing
 
 ```
-After installation Node.js
+After Node.js installation
 ```
 
 ```
