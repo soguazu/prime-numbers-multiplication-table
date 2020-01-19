@@ -39,7 +39,7 @@ const Main = () => {
   };
 
   let information =
-    'Please select the size of prime numbers you want to generate a table for by the right';
+    'Click the Generate Table button by the left to generate the first 10 prime numbers multiplicationtable';
   return (
     <Container fluid className="main">
       <Row>
@@ -63,7 +63,9 @@ const Main = () => {
             {isLoading ? (
               <Table striped>{createTable(numbers)}</Table>
             ) : (
-              <div style={{ color: '#dc2d3f' }}>{information}</div>
+              <div style={{ color: '#dc2d3f', textAlign: 'center' }}>
+                {information}
+              </div>
             )}
           </div>
         </Col>
